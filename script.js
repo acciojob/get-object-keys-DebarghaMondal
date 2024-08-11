@@ -1,10 +1,9 @@
-//your JS code here. If required.
-let student ={
-	name: Debargha
+Object.prototype.getKeys = function() {
+    return Object.keys(this);
 }
 
-function getKey(obj){
-	return Object.keys(obj);
+let student = {
+    name: "Debargha"
 }
 
-console.log(getKey(student));
+console.log(student.getKeys()); // This should log ["name"]
