@@ -3,4 +3,8 @@ let student ={
 	name: Debargha
 }
 
-getKey(student);
+function getKey(obj){
+	return Object.keys(obj);
+}
+
+console.log(getKey(student));
